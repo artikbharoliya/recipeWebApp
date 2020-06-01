@@ -1,0 +1,61 @@
+.resultCard {
+    border-radius: 30px 30px 30px 30px;
+    background: white;
+    padding-bottom:40px;
+    /* padding-top:30px; */
+    
+    margin-top:40px;
+    width: 45%;
+    box-shadow: 05px 10px 20px rgba(0,0,0,0.1);
+}
+
+.resultImageDiv{
+    border-radius: 28px 28px 0px 0px;
+    height:250px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(85, 63, 63, 0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+    background-blend-mode: multiply,multiply;
+    margin-bottom: 25px;
+}
+.resultImage{
+    height: 100%;
+    width: auto;
+    
+}
+.listStyle{
+    margin:8px 16px 8px 16px;
+    padding:2px 16px 2px 16px;
+    border-radius: 5px;
+     
+
+}
+.listStyle:hover{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+.rescipeBtn{
+             background: linear-gradient(135deg, #7d92f1 0%, #9466c2 100%);
+            color: white; 
+            padding: 15px 40px;
+            border-radius: 25px; 
+            text-align: center; 
+            display: inline-block; 
+            font-size: 16px; 
+            margin: 10px 30px; 
+            cursor: pointer;
+    
+}
+
+
+.rescipeBtn:hover{
+    
+
+}
+.List{
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.calories{
+    margin-top: 30px;
+}
